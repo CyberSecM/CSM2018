@@ -48,6 +48,6 @@ Host 857af5f3f1f6489b3504ea500154fdc0.com
 =========================================
 CNC Server, tempat attacker mengontrol bot dan rootkit yang terpasang di korban.
 Spesifikasi:
-	- OS: Debian 8 64-bit 
+	- OS: Ubuntu 16.04.3 LTS (Xenial Xerus)
 	- packages:
-		- 
+		- python3         3.5.2

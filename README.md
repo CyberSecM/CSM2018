@@ -1,1 +1,1 @@
-"# Cyber Security Marathon 2018" 
+# Cyber Security Marathon 2018

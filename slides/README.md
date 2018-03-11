@@ -8,7 +8,8 @@ Pembicara Day-1:
     - Matias Prasodjo
 
 Pembicara Day-2: 
+    - Michael Takeuchi
     - Andreas 
     - Niko Tidar
-    - Satria & Ramdhan
-    - Agus Setya
+    - Satria Ady & M. Ramdhan
+    - Agus Setya R.

