@@ -1,0 +1,53 @@
+Nodes:
+	- websrv.ptcsm.co.id
+	- mail.ptcsm.co.id
+	- 857af5f3f1f6489b3504ea500154fdc0.com
+
+Host websrv.ptcsm.co.id
+=======================
+Web server PT CSM. Server yang menjadi target peretasan untuk masuk lebih dalam 
+ke dalam infrastruktur PT CSM. Server diinstall pada tahun 2011 dan belum mengalami
+upgrade semenjak itu. 
+Perusahaan menggunakan server ini untuk kebutuhan company profile serta beberapa 
+aplikasi yang berbasis web.
+
+Hostname: 
+	- websrv.ptcsm.co.id
+	- ptcsm.co.id 
+IP address:
+	- 172.20.0.3 (internal)
+Spesifikasi:
+	- OS: Debian 7.1 64-bit
+	- packages:
+		- linux-image     3.2.0-5-amd64
+		- apache2         2.2.22-13
+		- mysql-server    5.5.59
+		- PHP             5.4.45
+	- non-packages:
+		- Joomla          3.4.3
+
+Host mail.ptcsm.co.id 
+=====================
+Mail server perusahaan. Rootkit terpasang pada mail server setelah attacker menguasai
+akses ke web server dan melompat ke server ini. Di server ini, campaign penyadapan 
+dilakukan. Semua aktivitas email (masuk / keluar) dibocorkan ke attacker melewati
+CNC Server.
+
+Hostname: 
+	- mailsrv.ptcsm.co.id 
+IP address:
+	- 172.20.0.4 (internal)
+Spesifikasi:
+	- OS: Debian 7.1 64-bit
+	- packages:
+		- linux-image-3.2.0-5-amd64                        (default)
+		- linux-headers-3.2.0-5-amd64
+		- build-essential
+
+Host 857af5f3f1f6489b3504ea500154fdc0.com
+=========================================
+CNC Server, tempat attacker mengontrol bot dan rootkit yang terpasang di korban.
+Spesifikasi:
+	- OS: Debian 8 64-bit 
+	- packages:
+		- 
